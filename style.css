@@ -1,0 +1,24 @@
+body {
+    background: lightgray;
+}
+section { 
+    background: white;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+}
+h1 {
+    color:blue;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:gray;
+}
+h2 {
+    color:#441c1c;
+}  
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: grey;
+}
