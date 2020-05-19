@@ -1,37 +1,65 @@
 body {
-    background: lightgray;
+  background: lightgray;
 }
-section { 
-    background: white;
-    padding: 5px;
-    margin: 0px 0px 5px 0px;
+section {
+  background: white;
+  padding: 5px 10px;
+  }
+main {
+    margin: 10px;
 }
-h1 {
-    color:blue;
-}
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    color:gray;
+  h1 {
+  color: blue;
 }
 h2 {
-    color:#441c1c;
-}  
+  color: #441c1c;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: gray;
+}
 footer {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: grey;
+  margin-top: 10px;
 }
-.link {
+.menu {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-    color: blue;
-    text-decoration: none;
     padding: 8px 10px;
+    margin-bottom: 5px;
+    background-color: teal;
+    color: #a7a7a7;
 }
-a.link:hover {
+.menu__link {
+    color: white;
+    text-decoration: none;
+}
+a.menu__link:hover {
     text-decoration: underline;
-}
-#menu {
+  }
+.main__zdjecie {
+    width: 12vw;
+    border: 0px;
+    float: left;
+    margin: 0px 5px 5px 0px;
     
+}
+  .pudelko {
+    border: brown 1px solid;
+    background: #520f0f;
+    color: #fff;
+    border-radius: 5px;
+    width: auto;
+    margin: 10px 20px;
+    padding: 5px;
+    overflow: auto;
+}
+.pin {
+    position: fixed;
+    right: 20px;
+    top: 50px;
+    width: 50px;
 }
